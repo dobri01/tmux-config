@@ -1,3 +1,26 @@
+# Installation notes
+
+## Prerequisites
+```
+sudo apt-get install tmux
+sudo apt-get install python
+sudo apt-get install ruby-full
+```
+
+## Using this config
+```
+git clone https://github.com/dobri01/tmux-config.git ~/example/tmux-config
+ln -sf $(echo ~/example/tmux-config/.tmux.conf) $(echo ~/.tmux.conf)
+
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
+Inside tmux:
+```
+prefix + I	- for reloading the tmux env
+prefix + U	- for updating all the plugins
+```
+
 # Tmux commands
 These are some commands that I often forget but are useful.
 
