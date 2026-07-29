@@ -2,9 +2,13 @@
 
 ## Prerequisites
 ```
+# Debian
 sudo apt-get install tmux
 sudo apt-get install python
 sudo apt-get install ruby-full
+
+# MacOS (install homebrew beforehand)
+brew install tmux
 ```
 
 ## Using this config
